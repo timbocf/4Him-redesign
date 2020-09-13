@@ -1,0 +1,22 @@
+.border {
+  border: 1px solid #ddd;
+}
+
+#site-heading {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.logo {}
+
+.menu {
+  padding-top: 2rem;
+}
+
+.menu ul li {
+  display: inline-block;
+  line-spacing: 1rem;
+  padding: 0.5rem;
+}
