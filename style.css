@@ -20,3 +20,7 @@
   line-spacing: 1rem;
   padding: 0.5rem;
 }
+
+.main-content {
+	background: url('images/4him-family.jpg') fill center;
+}
