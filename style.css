@@ -22,5 +22,7 @@
 }
 
 .main-content {
-	background: url('images/4him-family.jpg') fill center;
+	background: url('images/4him-family.jpg');
+	height: 500px;
+	width: 100%;
 }

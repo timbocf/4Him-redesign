@@ -38,9 +38,9 @@
 </div>
 </div>
 </header>
-<div class="container main-content">
+<div class="container">
 <div class="row">
-<div class="col-sm"></div>
+<div class="col-sm-12 main-content" style="background-image: url('images/4him-family.jpg')">Hello</div>
 </div>
 </div>
 </body>
