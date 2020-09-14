@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>4Him Plumbing, Gladewater TX</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header id="site-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 logo">
+          <a href="index.htm"><img src="images/4him-logo.jpg"></a>
+        </div>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay menu">
+
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="index.php">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <span onclick="openNav()" class="opennav">&#9776;</span>
+      </div>
+    </div>
+  </header>
+  <div id="main-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script>
+// Open when someone clicks on the span element
+function openNav() {
+document.getElementById('myNav').style.width = '100%';
+}
+
+// Close when someone clicks the "x" symbol inside the overlay
+function closeNav() {
+document.getElementById('myNav').style.width = "0%";
+}
+
+</script>
